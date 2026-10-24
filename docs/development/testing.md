@@ -158,3 +158,5 @@ report failure, Close all stops web and native apps while preserving Home,
 unlisted apps and newer cards, and snapshots forbid caching. The browser
 check covers held OK acting once on release, close errors above the panel,
 and Back or a Home relaunch cancelling a delayed panel reply.
+
+`test-home-date.js` runs Glasshouse Home's date with the browser's default locale at en-US, as on webOS 10: a Russian page gets Russian words with the month as it follows a number (`24 октября`), and the line starts with a capital, an English page is unchanged, and a browser without `formatToParts` still uses the page's language. It is skipped on a node without full ICU.
