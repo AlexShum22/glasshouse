@@ -853,7 +853,7 @@
  "pv.running": {"text": "Работает", "from": "Running"},
  "pv.runningNow": {"text": "Что работает сейчас", "from": "What’s running now"},
  "pv.runningNow.desc": {"text": "Чем занят механизм сбора данных LG в этот момент. Это отдельный вопрос от того, что ему разрешено собирать.", "from": "What LG's collection machinery is doing at this moment, which is a separate question from what it is permitted to collect."},
- "pv.runningNow.note": {"text": "Служба может работать при выключенном разрешении: ей просто нечего отправлять. ", "from": "A service can be running with its permission switched off — it simply has nothing it is allowed to send. "},
+ "pv.runningNow.note": {"text": "Служба может работать при выключенном разрешении: ей просто нечего отправлять. Выключаются такие службы на вкладке «Приложения», в разделе «Отключение фоновых служб», и остаются выключенными после перезагрузки. Службы распознавания и рекламы LG здесь не показаны: их запускает любое обращение к ним, поэтому панель опрашивает их, только пока они уже работают.", "from": "A service can be running with its permission switched off — it simply has nothing it is allowed to send. They are switched off in the Apps tab, under Turn off background services, which keeps them off across reboots. LG's recognition and advertising services are not listed: anything that asks them a question starts them, so this panel asks them only while they are running."},
  "pv.runningOf": {"text": "Работает: {n} из {total}", "from": "{n} of {total} running"},
  "pv.sharesWith": {"text": "выключение этого пункта выключает также: {names}", "from": "switching this off also switches off {names}"},
  "pv.stillOn": {"text": "Все еще включено: {n}", "from": "{n} things are still on"},
